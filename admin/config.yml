@@ -1,30 +1,11 @@
 backend:
-  name: github
-  repo: rareearthalchemy/materia-mystica-site
+  name: git-gateway
   branch: main
 
 media_folder: "uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "homepage"
-    label: "Homepage"
-    files:
-      - label: "Main Page Content"
-        name: "main"
-        file: "index.html"
-        fields:
-          - { label: "Body", name: "body", widget: "markdown" }
-
-  - name: "about"
-    label: "About"
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "about.html"
-        fields:
-          - { label: "Body", name: "body", widget: "markdown" }
-
   - name: "posts"
     label: "Reflections"
     folder: "posts"

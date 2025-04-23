@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: rareearthalchemy/materia-mystica-site
   branch: main
 
 media_folder: "uploads"

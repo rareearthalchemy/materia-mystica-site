@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Materia Mystica</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Crimson+Text&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Crimson Text', serif;
+      background-color: #2a1f14;
+      color: #f4f1ec;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+    .hero-image {
+      display: block;
+      margin: 2rem auto 1rem auto;
+      max-width: 100%;
+      height: auto;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      color: #f4f1ec;
+    }
+    header h2 {
+      font-family: 'Crimson Text', serif;
+      font-size: 1.5rem;
+      font-weight: normal;
+      color: #d9cbb4;
+      margin-bottom: 1.5rem;
+    }
+    .waitlist-button {
+      background-color: transparent;
+      color: #f4f1ec;
+      padding: 0.75rem 1.5rem;
+      border: 1px solid #f4f1ec;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .waitlist-button:hover {
+      background-color: #f4f1ec;
+      color: #2a1f14;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #f4f1ec;
+    }
+    .about-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .about-text {
+      flex: 1;
+    }
+    .about-container img {
+      width: 160px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    .ens-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .ens-section img {
+      width: 140px;
+      height: auto;
+      border-radius: 6px;
+      flex-shrink: 0;
+    }
+    .email-form {
+      background-color: #3a2e23;
+      padding: 2rem;
+      border-radius: 8px;
+      margin-top: 2rem;
+    }
+    .email-form input[type="text"],
+    .email-form input[type="email"] {
+      width: 100%;
+      padding: 0.75rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    .email-form input[type="submit"] {
+      background-color: #8b5e3c;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      padding: 2rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="hero-image" src="A_sepia-toned_ink_drawing_titled_Materia_Mystica.png" alt="Materia Mystica Banner" />
+    <h1>Materia Mystica</h1>
+    <h2>The Sacred Art of Alchemical Transformation</h2>
+    <button class="waitlist-button">Join the Waitlist</button>
+  </header>
+
+  <section>
+    <h2>What is Materia Mystica?</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p><em>"Alchemy is the Art of Nature. It reveals the secret virtue in all things, awakening their highest expression."</em></p>
+        <p>Materia Mystica is the living archive and creative vessel of alchemist and healer Nick Grossenbacher, founder of Rare Earth Alchemy and Reålea Skincare. It exists to illuminate the esoteric dimensions of healing, matter, and consciousness—through writings, remedies, and sacred craft.</p>
+        <p>This is a return to the philosopher's path—where nature is not a resource to exploit, but a sacred text to read, honor, and transmute.</p>
+      </div>
+      <img src="nickpainting.jpeg" alt="Portrait of Nick Grossenbacher" />
+    </div>
+  </section>
+
+  <section>
+    <h2>Ens Scorpionis</h2>
+    <div class="ens-section">
+      <img src="scorpion.png" alt="Ens Scorpionis Illustration" />
+      <div>
+        <p><strong>The Scorpion Opens the Door.</strong></p>
+        <p>In the untouched oak-studded hills of Mendocino County, the scorpion dwells in stillness—an emissary of transformation, protection, and the deeper currents of nature’s intelligence.</p>
+        <p><strong>Ens Scorpionis</strong> is a rare alchemical tincture crafted from wild-caught scorpions, prepared according to the protocols of the <em>Primum Ens</em>—a high-level spagyric method known to concentrate the spiritual essence of a substance.</p>
+        <p>This tincture is not for the faint-hearted. It is a <strong>shamanic key</strong> to initiate deep psychic cleansing, protection, and personal rebirth.</p>
+        <p><strong>⚠️ Limited wildcrafted production.</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="email-form">
+    <h2>Join the Waitlist</h2>
+    <p>Sign up for first access to Ens Scorpionis, new alchemical offerings, writings, and private invitations.</p>
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <input type="submit" value="Join the Circle" />
+    </form>
+  </section>
+
+  <footer>
+    &copy; 2025 Materia Mystica. All rights reserved.
+  </footer>
+</body>
+</html>

@@ -2,25 +2,10 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Materia Mystica</title>
+    <title>Materia Mystica CMS</title>
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
   </head>
   <body>
-    <h1>Welcome to Materia Mystica</h1>
-    <p>This is the landing page of your living codex.</p>
-
-    <!-- Netlify Identity Script for Login + Redirect Support -->
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <script>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", (user) => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-        window.netlifyIdentity.init();
-      }
-    </script>
   </body>
 </html>
